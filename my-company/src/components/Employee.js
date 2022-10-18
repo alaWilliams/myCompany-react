@@ -2,7 +2,7 @@ const Employee = () => {
   return (
     <div className="employee">
           <div className="pic-wrapper">
-            <div className="picture"></div>
+            <div className='picture'></div>
           </div>
           <div className="employee-wrapper">
             <p className="employee-info">Imię Nazwisko [dział]</p>

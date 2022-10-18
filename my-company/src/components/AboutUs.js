@@ -9,9 +9,9 @@ const AboutUs = () => {
 
         <div className="employee-container">
 
-          <Employee />
+          <Employee/>
 
-          <Employee />
+          <Employee/>
 
         </div>
       </div>

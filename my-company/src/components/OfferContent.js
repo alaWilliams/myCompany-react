@@ -1,30 +1,15 @@
 import OfferBoxNew from './OfferBoxNew';
 import OfferBox from './OfferBox';
-import { useState } from 'react';
-import offerArray from './OfferArray';
 
-const OfferContent = ({offerArray, isNew}) => {
-  const offerArrayThree = offerArray
-  // const offerArrayTwo = ['Usługa 1', 'Usługa 2', 'Usługa 3', 'Usługa 4', 'Usługa 5', 'Usługa 6'];
- {isNew ? <OfferBoxNew /> : <OfferBox/>}
+const OfferContent = () => {
+  const offerArray = [{name: 'Usługa 1', new: true}, {name: 'Usługa 2', new: false}, {name: 'Usługa 3', new: false}, {name: 'Usługa 4', new: false}, {name: 'Usługa 5', new: false}, {name: 'Usługa 6', new: false}];
+
 return (
-  <div>
-  {offerArrayThree.map((div, key) => <div key={key}>{div}</div>)}
-  </div>
+      <div className = 'offer-content'>
+        {offerArray.map(element => <OfferBox name={element.name} new={element.new}/>)}
+     </div> 
 )
 
 }
-// const [isNew, setIsNew] = useState(true);
 
-// const changeStatus = () => setIsNew((state => true));
-//   return (
-//     <div className = 'offer-content'>
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//       {isNew ? <OfferBoxNew /> : <OfferBox/>}
-//    </div> 
-//  )
 export default OfferContent;
