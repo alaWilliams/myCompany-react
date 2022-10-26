@@ -1,4 +1,3 @@
-import OfferBoxNew from './OfferBoxNew';
 import OfferBox from './OfferBox';
 
 const OfferContent = () => {

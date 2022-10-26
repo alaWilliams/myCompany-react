@@ -1,8 +1,8 @@
-const Employee = () => {
+const Employee = (isFirst) => {
   return (
     <div className="employee">
           <div className="pic-wrapper">
-            <div className='picture'></div>
+            <div className={"picture pic-" + (isFirst ? 'one' : 'two')}> </div>
           </div>
           <div className="employee-wrapper">
             <p className="employee-info">Imię Nazwisko [dział]</p>

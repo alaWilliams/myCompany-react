@@ -104,20 +104,17 @@ a {
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .pic-one {
   background-image: url(./images/emp-img1.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .pic-two {
   background-image: url(./images/emp-img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .employee {

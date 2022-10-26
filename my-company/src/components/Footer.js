@@ -1,3 +1,5 @@
+import 'https://kit.fontawesome.com/9387347f9c.js'
+
 const Footer = () => {
   return (
     <footer className="footer">
