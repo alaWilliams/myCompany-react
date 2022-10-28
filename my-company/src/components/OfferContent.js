@@ -5,7 +5,7 @@ const OfferContent = () => {
 
 return (
       <div className = 'offer-content'>
-        {offerArray.map(element => <OfferBox name={element.name} new={element.new}/>)}
+        {offerArray.map(element => <OfferBox name={element.name} new={element.new} key={element.name}/>)}
      </div> 
 )
 
