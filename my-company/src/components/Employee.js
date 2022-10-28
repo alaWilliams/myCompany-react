@@ -1,8 +1,9 @@
-const Employee = (isFirst) => {
+const Employee = props => {
+  const {isFirst, isSecond} = props
   return (
     <div className="employee">
           <div className="pic-wrapper">
-            <div className={"picture pic-" + (isFirst ? 'one' : 'two')}> </div>
+            <div className={isSecond ? 'picture pic-two' : 'picture pic-one' }> </div>
           </div>
           <div className="employee-wrapper">
             <p className="employee-info">Imię Nazwisko [dział]</p>

@@ -11,7 +11,7 @@ const AboutUs = () => {
 
           <Employee isFirst={true}/>
 
-          <Employee isFirst={false}/>
+          <Employee isSecond={true}/>
 
         </div>
       </div>
