@@ -1,4 +1,5 @@
-import 'https://kit.fontawesome.com/9387347f9c.js'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -12,11 +13,11 @@ const Footer = () => {
 
         <div className="social-media">
 
-          <div className="fb">
-            <i className="fa-brands fa-instagram"></i>
-          </div>
           <div className="instagram">
-            <i className="fa-brands fa-facebook-square"></i>
+            <FaInstagram />
+          </div>
+          <div className="facebook">
+            <FaFacebookSquare />
           </div>
 
         </div>

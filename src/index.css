@@ -192,12 +192,19 @@ a {
   gap: 1.5rem;
 }
 
- .fb, .instagram {
-  font-size: 2.5rem;
+ .facebook, .instagram {
   display: flex;
   justify-content: center;
   align-items: center;
 } 
+
+.facebook {
+  font-size: 2.5rem;
+}
+
+.instagram {
+  font-size: 3rem;
+}
 
 @media screen and (min-width:768px) {
   .navbar {
