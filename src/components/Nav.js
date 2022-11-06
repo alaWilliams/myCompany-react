@@ -8,7 +8,7 @@ const Nav = () => {
       <ul className=" navbar-right">
           <li className="nav-item"><a href="#about-us">o nas</a></li>
           <li className="nav-item"><a href="#offer">oferta</a></li>
-          <li className="nav-item disabled"><a href="">kontakt</a></li>
+          <li className="nav-item disabled"><a>kontakt</a></li>
        </ul>
 
     </div>
