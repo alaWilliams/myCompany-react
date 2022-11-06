@@ -9,7 +9,7 @@ const AboutUs = () => {
 
         <div className="employee-container">
 
-          <Employee isFirst={true}/>
+          <Employee/>
 
           <Employee isSecond={true}/>
 

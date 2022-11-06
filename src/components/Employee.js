@@ -1,5 +1,5 @@
 const Employee = props => {
-  const {isFirst, isSecond} = props
+  const {isSecond} = props
   return (
     <div className="employee">
           <div className="pic-wrapper">
